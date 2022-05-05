@@ -16,4 +16,4 @@ add_to_basket_button = driver.find_element_by_xpath('//*[@id="layoutPage"]/div[1
 add_to_basket_button.click()
 
 shopping_basket = driver.find_element_by_xpath('//*[@id="stickyHeader"]/div[4]/a[2]').click()
-verybad_guy = driver.find_element_by_xpath('//*[@id="layoutPage"]/div[1]/div/div/div[3]/div/div/div/div[2]/div/div/div/div/div[3]/div').click()
+bad_guy = driver.find_element_by_xpath('//*[@id="layoutPage"]/div[1]/div/div/div[3]/div/div/div/div[2]/div/div/div/div/div[3]/div').click()
